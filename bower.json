@@ -1,0 +1,33 @@
+{
+  "name": "ptext",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests",
+    "externs",
+    "js",
+    "tmp"
+  ],
+  "dependencies": {
+    "purescript-arrays": "*",
+    "purescript-control": "*",
+    "purescript-either": "*",
+    "purescript-foldable-traversable": "*",
+    "purescript-foreign": "*",
+    "purescript-lazy": "*",
+    "purescript-maps": "*",
+    "purescript-maybe": "*",
+    "purescript-monoid": "*",
+    "purescript-strings": "*",
+    "purescript-transformers": "*",
+    "purescript-validation": "git://github.com/purescript/purescript-validation.git",
+    "purescript-parsing": "*",
+    "js-yaml": "*"
+
+  },
+  "devDependencies": {
+    "purescript-quickcheck": "*"
+  }
+}
